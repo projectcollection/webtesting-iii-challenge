@@ -1,4 +1,3 @@
-// Test away!
 import React from 'react';
 import renderer from 'react-test-renderer';
 import {render, cleanup, fireEvent} from 'react-testing-library';
@@ -54,7 +53,6 @@ describe('<Controls/>', () => {
         fireEvent.click(toggleBtn);
 
         expect(mockToggleLocked).toHaveBeenCalledTimes(1);
-        getByText('Unlock Gate')
     });
 
     test('should call toggleClosed() if toggle close button is clicked and active', () => {
