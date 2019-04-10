@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Controls/> should match snapshot 1`] = `
+<div
+  className="controls panel"
+>
+  <button
+    className="toggle-btn"
+    data-testid="toggle-lock"
+    disabled={true}
+  >
+    Lock Gate
+  </button>
+  <button
+    className="toggle-btn"
+    data-testid="toggle-close"
+  >
+    Close Gate
+  </button>
+</div>
+`;
+
+exports[`<Controls/> should match snapshot 2`] = `
+<div
+  className="controls panel"
+>
+  <button
+    className="toggle-btn"
+    data-testid="toggle-lock"
+    disabled={true}
+  >
+    Lock Gate
+  </button>
+  <button
+    className="toggle-btn"
+    data-testid="toggle-close"
+    disabled={false}
+  >
+    Close Gate
+  </button>
+</div>
+`;
+
+exports[`<Controls/> should match snapshot 3`] = `
+<div
+  className="controls panel"
+>
+  <button
+    className="toggle-btn"
+    data-testid="toggle-lock"
+    disabled={true}
+  >
+    Unlock Gate
+  </button>
+  <button
+    className="toggle-btn"
+    data-testid="toggle-close"
+    disabled={true}
+  >
+    Close Gate
+  </button>
+</div>
+`;
+
+exports[`<Controls/> should match snapshot 4`] = `
+<div
+  className="controls panel"
+>
+  <button
+    className="toggle-btn"
+    data-testid="toggle-lock"
+    disabled={false}
+  >
+    Unlock Gate
+  </button>
+  <button
+    className="toggle-btn"
+    data-testid="toggle-close"
+    disabled={true}
+  >
+    Open Gate
+  </button>
+</div>
+`;
